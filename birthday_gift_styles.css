@@ -1,0 +1,105 @@
+body{
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+
+    background: rgb(184, 189, 156);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#roundImage{
+    width:150px;
+    border-radius:50%;
+    border: 2px solid rgb(221, 221, 122);
+    box-shadow: 5px 5px 10px rgba(50, 54, 53, 0.5);
+
+}
+h1, h2, h3{
+    text-shadow: -5px 3px 2px rgb(245, 248, 240);
+}
+.bg_year_date{
+    background: hotpink;
+    padding:5px 10px;
+    border-radius: 10px;
+    margin-bottom: -10px;
+    
+}
+#text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.happy_text{
+    font-family: 'Times New Roman', Times, serif;
+    gap: -5px;
+    margin-bottom: -10px;
+    color: rgb(5, 1, 255);
+}
+
+.gift_cover{
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+    border: 6px solid rgb(180, 241, 38);
+    border-radius: 10px;
+    background-image: url("gift-cover.jpg");
+    background-size: cover;
+}
+
+#happy-gift:hover{
+    background-image: url("howHappyIm.gif");
+    background-size: cover;
+    background-position: center;
+}
+
+#room-boom:hover{
+    background-image: url("boom.gif");
+    background-size: cover;
+    background-position: center;
+}
+
+#cutie:hover{
+    background-image: url("HappyBirthdayPartyGIF.gif");
+    background-size: cover;
+    background-position: center;
+}
+
+#one-word-define:hover{
+    background-image: url("donkey.gif");
+    background-size: cover;
+    background-position: center;
+}
+
+#badass:hover{
+    background-image: url("indira-gandhi.gif");
+    background-size: cover;
+    background-position: center;
+}
+
+#cheers{
+    height: 250px;
+}
+
+#cheers:hover{
+    background-image: url("cheers.gif");
+    background-size: cover;
+    background-position: center;
+}
+
+#footer{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    gap: -5px;
+    margin-bottom: 20px;
+    color: rgb(0, 157, 255);
+}
