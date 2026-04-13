@@ -17,7 +17,7 @@ body{
 }
 #roundImage{
     width:150px;
-    border-radius:50%;
+    border-radius:100%;
     border: 2px solid rgb(221, 221, 122);
     box-shadow: 5px 5px 10px rgba(50, 54, 53, 0.5);
 
